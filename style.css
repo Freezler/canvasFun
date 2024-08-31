@@ -16,7 +16,7 @@ body {
 }
 
 #draw {
-  border: 2px solid #222a06;
+  ` border: 2px solid #222a06;
   background: #070c0cd3;
   border-radius: 10px;
 }

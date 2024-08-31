@@ -6,7 +6,7 @@ ctx.strokeStyle = '#BADA55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 
-ctx.globalCompositeOperation = 'xor';
+ctx.globalCompositeOperation = "inclusion";
 
 let isDrawing = false;
 let lastX = 0;
@@ -25,7 +25,7 @@ function draw(e) {
   ctx.stroke();
   [lastX, lastY] = [e.offsetX, e.offsetY];
 
-  hue += 1;
+  hue += 3;
   if (hue >= 360) {
     hue = 0;
   }
