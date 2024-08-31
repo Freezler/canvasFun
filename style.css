@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(130deg, #0f2027, #203a43, #2c5364);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#draw {
+  border: 2px solid #222a06;
+  background: #070c0cd3;
+  border-radius: 10px;
+}
